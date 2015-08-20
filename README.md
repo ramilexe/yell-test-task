@@ -5,7 +5,7 @@
 Конфиг nginx в файле nginx.conf
 Стартовая страница: http://yell.dev/shape/index
 
-![Начальный экран](https://github.com/ramilexe/yell-test-task/pic1.png)
+![Начальный экран](https://raw.githubusercontent.com/ramilexe/yell-test-task/master/pic1.png)
 
 
 ## Задание 2
