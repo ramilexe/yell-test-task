@@ -2,7 +2,11 @@
 
 ## Задание 1
 
-см. код
+Конфиг nginx в файле nginx.conf
+Стартовая страница: http://yell.dev/shape/index
+
+![Начальный экран](https://github.com/ramilexe/yell-test-task/pic1.png)
+
 
 ## Задание 2
 
