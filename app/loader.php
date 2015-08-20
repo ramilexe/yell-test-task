@@ -1,8 +1,6 @@
 <?php
 
 spl_autoload_register(function ($className) {
-    //var_dump($className);
-
     $prefix = 'yelltest\\';
 
     // does the class use the namespace prefix?
@@ -14,7 +12,7 @@ spl_autoload_register(function ($className) {
 
     $relativeClass = substr($className, $len);
     $file = dirname(__FILE__) . '/' . str_replace('\\', '/', $relativeClass).'.php';
-    //var_dump($file);
+
     if (file_exists($file)) {
         require $file;
     }
