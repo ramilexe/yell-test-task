@@ -68,3 +68,12 @@ SELECT type, value
 FROM t
 WHERE rank = 1
 ```
+А вот более красивое решение:
+
+```
+SELECT
+	type,
+	(array_agg(value ORDER BY date DESC))[1]
+FROM data
+GROUP BY type
+```
